@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>Vui lòng liên hệ : <a href='#'>Nguyễn Đông Blog"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/>Vui lòng liên hệ : <a href='wwww.nguyendong.vn'>Nguyễn Đông Blog"+document.location.pathname+"</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
